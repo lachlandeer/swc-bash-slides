@@ -127,6 +127,15 @@ class: softblue, middle, center
 # The Unix Shell
 
 ---
+# Unix File System
+
+![alt text](http://swcarpentry.github.io/shell-novice/fig/filesystem.svg)
+
+# Home Directories
+
+![alt text](http://swcarpentry.github.io/shell-novice/fig/home-directories.svg)
+
+---
 # Exercise: relative path resolution
 Using the filesystem diagram below, if `pwd` displays `/Users/thing`, what will `ls -F ../backup display`?
 
@@ -195,6 +204,12 @@ Option 3:
 $ cp -r 2016-05-18-data/ 2016-05-20-data/
 $ rm -r -i 2016-05-20-data/
 ```
+
+---
+# Pipe & Filter Logic
+
+![alt text](http://swcarpentry.github.io/shell-novice/fig/redirects-and-pipes.png)
+
 
 ---
 # Exercise: Piping Commands Together
