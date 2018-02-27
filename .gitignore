@@ -1,0 +1,4 @@
+libs/*
+*.html
+shell-slides_files/*
+.Rproj*
